@@ -21,11 +21,11 @@ void clicker()
 		{
 			click = false;
 		}
-		if (click == true) // if click = true it will press the mouse button down and up really fast
+		if (click == true) 
 		{
 			mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
 			mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
-			Sleep(100); //you can adjust the speed of the click here
+			Sleep(100); 
 		}
 	}
 }		
