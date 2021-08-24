@@ -1,5 +1,3 @@
-Autoclick.
-
 Download the file then compile and run by the command: 
 
   g++ -o autoclick autoclick.cpp
